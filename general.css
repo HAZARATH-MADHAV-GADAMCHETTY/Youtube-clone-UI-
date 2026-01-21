@@ -1,0 +1,16 @@
+p{
+    font-size: 12px;
+    font-family: roboto,Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+} 
+body{
+    padding-top: 60px;
+    padding-left: 75px;
+    background-color: white;
+}
+@media(max-width:800px){
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
